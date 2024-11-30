@@ -1,0 +1,18 @@
+{
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "always",
+		"source.fixAll.ts": "always",
+		"source.removeUnusedImports": "always",
+		"source.organizeImports": "always",
+		"source.sortImports": "always",
+		"source.organizeLinkDefinitions": "always"
+	},
+	"json.schemas": [
+		{
+			"url": "https://cdn.jsdelivr.net/npm/tsup/schema.json",
+			"fileMatch": ["package.json", "tsup.config.json"]
+		}
+	]
+}
