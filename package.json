@@ -15,7 +15,6 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "vitest run",
-    "prepare": "husky",
     "prettier:check": "prettier . --check",
     "prettier:write": "prettier . --write"
   },
@@ -42,7 +41,6 @@
     "eslint": "^9.15.0",
     "eslint-config-prettier": "^9.1.0",
     "globals": "^15.12.0",
-    "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "pino-pretty": "^11.0.0",
     "prettier": "^3.4.1",
